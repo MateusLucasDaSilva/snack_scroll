@@ -37,7 +37,7 @@ To get started with this project, follow these steps:
 ## Project Structure
 
 ```plaintext
-coffee_shop/
+snack_scroll/
 ├── lib/
 │   ├── component/
 │   │   ├── circle_button.dart
