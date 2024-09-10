@@ -1,16 +1,88 @@
-# snack_scroll
+# Coffee Shop App
 
-A new Flutter project.
+A simple experimental Flutter application for a coffee shop. The app features two screens: a list of burgers and a detail view for each burger with engaging animations.
+
+## Features
+
+- **Screen 1:** Displays a list of burgers.
+- **Screen 2:** Shows detailed information about a selected burger.
+- **Animations:** Smooth and appealing animations between screens.
+
+## Screenshots
+
+<img src="screenshots/preview.gif" width="170" />     <img src="screenshots/screenshot_001.png" width="170" />     <img src="screenshots/screenshot_002.png" width="170" />     <img src="screenshots/screenshot_004.png" width="170" />
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get started with this project, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/MateusLucasDaSilva/snack_scroll.git
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    flutter pub get
+    ```
+
+3. **Run the app:**
+
+    ```bash
+    flutter run
+    ```
+
+## Project Structure
+
+```plaintext
+coffee_shop/
+├── lib/
+│   ├── component/
+│   │   ├── circle_button.dart
+│   │   ├── image_item.dart
+│   │   ├── list_image.dart
+│   │   ├── product_details.dart
+│   │   ├── rounded_text_button.dart
+│   │   ├── text_scroll.dart
+│   │   ├── text_slide.dart
+│   │   └── title_item.dart
+│   ├── controller/
+│   │   └── multiple_animation_controller.dart
+│   ├── helper/
+│   │   └── dialog_helper.dart
+│   ├── model/
+│   │   └── product.dart
+│   ├── util/
+│   │   └── convert.dart
+│   ├── config.dart
+│   └── main.dart
+├── assets/
+│   ├── images/
+│   │   ├── burger_1.png
+│   │   ├── burger_2.png
+│   │   ├── burger_3.png
+│   │   ├── burger_4.png
+│   │   ├── burger_5.png
+│   ├── svg/
+│   │   ├── burger.svg
+│   │   ├── cart.svg
+│   │   ├── more.svg
+│   │   ├── next.svg
+├── pubspec.yaml
+└── README.md
+```
+
+#### Contribution:
+Contributions to the project are welcome! If you encounter any bugs or have ideas for improvements, feel free to open an issue or submit a pull request.
+
+
+#### Contact:
+For any inquiries or feedback, please contact [mateuslukas505@gmail.com](mailto:mateuslukas505@gmail.com).
+
+Thank you for using Coffee Shop App! Enjoy exploring! 🚀
