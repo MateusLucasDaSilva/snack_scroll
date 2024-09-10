@@ -8,10 +8,6 @@ A simple experimental Flutter application for a coffee shop. The app features tw
 - **Screen 2:** Shows detailed information about a selected burger.
 - **Animations:** Smooth and appealing animations between screens.
 
-## Screenshots
-
-<img src="screenshots/preview.gif" width="170" />     <img src="screenshots/screenshot_001.png" width="170" />     <img src="screenshots/screenshot_002.png" width="170" />     <img src="screenshots/screenshot_004.png" width="170" />
-
 
 ## Getting Started
 
